@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stolarnia u Dariusza Ślusarza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f5f0;
+            color: #333;
+        }
+        header {
+            background-color: #8B4513;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav {
+            text-align: center;
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8B4513;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #D2691E;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .contact {
+            background-color: #fff8f0;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        footer {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Stolarnia u Dariusza Ślusarza</h1>
+    </header>
+
+    <nav>
+        <a href="#gallery">Galeria</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <section id="gallery" class="gallery">
+        <img src="https://images.unsplash.com/photo-1605902711622-cfb43c443f05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjc3M3wwfDF8c2VhcmNofDF8fHN0b2xhcm5lfGVufDB8fHx8MTY5ODM4NzA2Nw&ixlib=rb-4.0.3&q=80&w=400" alt="Warsztat stolarski">
+        <img src="https://images.unsplash.com/photo-1594737625785-81527c1e0d77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjc3M3wwfDF8c2VhcmNofDJ8fHN0b2xhcm5lfGVufDB8fHx8MTY5ODM4NzA3MA&ixlib=rb-4.0.3&q=80&w=400" alt="Meble drewniane">
+        <img src="https://images.unsplash.com/photo-1617196037480-5c334dd3a8fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjc3M3wwfDF8c2VhcmNofDN8fHN0b2xhcm5lfGVufDB8fHx8MTY5ODM4NzA3Mg&ixlib=rb-4.0.3&q=80&w=400" alt="Narzędzia stolarskie">
+    </section>
+
+    <section id="contact" class="contact">
+        <p>📍 Adres: ul. Ulicowska 67</p>
+        <p>📞 Telefon: 213 767 123</p>
+    </section>
+
+    <footer>
+        &copy; 2026 Stolarnia u Dariusza Ślusarza
+    </footer>
+
+</body>
+</html>
